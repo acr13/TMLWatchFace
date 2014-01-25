@@ -34,16 +34,10 @@ function getScore()
 				
 Pebble.addEventListener("ready", function(e) 
 {
-	//console.log("AL's JavaScript ready to fuck fuck dick!");
 	//getScore();
 });
 
 Pebble.addEventListener("appmessage", function(e)
 {
-	// doesn't matter whats in the message, get the latest score fuck!
-	//console.log("*************");
-	//console.log("appmessage RECEIVED");
-	//console.log(mydump(e.payload));
-	
 	getScore();
 });
